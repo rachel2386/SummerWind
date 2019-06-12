@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6090662215269374126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8794743, y: 1.8794743, z: 1.8794743}
+  m_LocalScale: {x: 2.0674217, y: 2.0674217, z: 2.0674217}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -112,7 +112,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6d7057bee39fdac4882aa3f7a5dda1c2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5b46df03034a2124583a40aea41ffc45, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: Tree Data
   m_EditorClassIdentifier: 
   _uniqueID: 951
-  materialHash: 922930b4ea954df6dbb5c6369cf53ada215482368
+  materialHash: 557ad661f20beec4937aa81662bc149e215482368
   root:
     _uniqueID: 1
     seed: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: -0.075862885
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -306,7 +306,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 1
+        value: -0.075862885
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1300,7 +1300,7 @@ MonoBehaviour:
     offset: 0
     baseAngle: 0
     angle: 0
-    pitch: -0
+    pitch: 0
     rotation: {x: 0, y: 0, z: 0, w: 1}
     matrix:
       e00: 1
