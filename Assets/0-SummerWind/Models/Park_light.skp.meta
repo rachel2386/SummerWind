@@ -25,7 +25,27 @@ SketchUpImporter:
     scenes: []
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acrylic_MkyW
+    second: {fileID: 2100000, guid: 6fc100ca6e0c31b4e812683fdc3b7811, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Painted_Black
+    second: {fileID: 2100000, guid: 063217b589a9f2a45be28afea7f4bcc0, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Acrylic_MkyW_basecolor
+    second: {fileID: 2800000, guid: d4702833b1020f348bb18b8e7d7bb5e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Painted_Bk_basecolor
+    second: {fileID: 2800000, guid: fe23c5123652fe54cb99a9d9295a8b3a, type: 3}
   materials:
     importMaterials: 1
     materialName: 2
