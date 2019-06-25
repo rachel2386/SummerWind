@@ -167,7 +167,6 @@ GameObject:
   - component: {fileID: 4100953832713468}
   - component: {fileID: 205725148974744052}
   - component: {fileID: 64562338547036402}
-  - component: {fileID: 136175568900152372}
   m_Layer: 0
   m_Name: CoconutPalmTree02_TESS_LOD
   m_TagString: Untagged
@@ -238,20 +237,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 9326b4cbae3f81a408b9ef8652a0093e, type: 3}
---- !u!136 &136175568900152372
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524087659306046}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.75
-  m_Height: 6
-  m_Direction: 1
-  m_Center: {x: 0.5, y: 2.52, z: 0}
 --- !u!1 &1766364771138776
 GameObject:
   m_ObjectHideFlags: 0
