@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: atlas tex5
-  m_Shader: {fileID: 54, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -23,13 +23,76 @@ Material:
         m_Texture: {fileID: 2800000, guid: c592179b040bdb54f9245ca4be7f9f7a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpSpecMap:
+        m_Texture: {fileID: 2800000, guid: 1fc0c6ad1a0ea5b40a2034d525c8d6e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 3cbc99584aa18fd438e313b254477c9a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 2800000, guid: 46de76019358942b7b0dd6b41a2ae40a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AO: 0.51
+    - _AnimateNormal: 0
+    - _BaseLight: 0.115
+    - _BillboardKwToggle: 0
+    - _BillboardShadowFade: 0.5
+    - _Culling: 0
     - _Cutoff: 0.5
+    - _EdgeFlutterInfluence: 0.026
+    - _EnableLeafTurbulence: 0
+    - _EnableTransFade: 0
+    - _FadeOutWind: 0
+    - _Glossiness: 0.5
+    - _HueVariationKwToggle: 0
+    - _LODTerrain: 0
+    - _LeafTurbulence: 0.22
+    - _Metallic: 0
+    - _NormalInfluence: 0.3
+    - _NormalMapKwToggle: 0
+    - _Occlusion: 1
+    - _ShadowStrength: 0.766
     - _Shininess: 0.078125
+    - _Snow: 5
+    - _SnowMultiplier: 1.75
+    - _SquashAmount: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
+    - _TimeOffset: 0
+    - _TranslucencyStrength: 0.5
+    - _TranslucencyViewDependency: 0.853
+    - _TumbleFrequency: 0
+    - _TumbleStrength: -1
+    - _TwoSided: 2
+    - _ViewDependency: 0.8
+    - _WetnessMaxSmoothness: 0.8
+    - _WindQuality: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+    - _HueVariation: {r: 0.9, g: 0.5, b: 0, a: 0.1}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _SpecColor: {r: 0.25735295, g: 0.25735295, b: 0.25735295, a: 0}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucencyColor: {r: 0.5377358, g: 0.40000448, b: 0.022828398, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

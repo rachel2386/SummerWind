@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 492424}
   - component: {fileID: 3392424}
   - component: {fileID: 2392424}
-  - component: {fileID: 6492424}
-  - component: {fileID: 9592424}
   m_Layer: 0
   m_Name: d pl6
   m_TagString: Untagged
@@ -80,39 +78,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6492424
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 627d544c51db41b42958a987f2032bff, type: 3}
---- !u!95 &9592424
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192424}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 627d544c51db41b42958a987f2032bff, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &192426
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +166,7 @@ MeshCollider:
   m_GameObject: {fileID: 192426}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
