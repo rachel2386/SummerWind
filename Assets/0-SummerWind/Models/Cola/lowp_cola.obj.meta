@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a0f6acda4452b1445b25b71c9d98fc24
+guid: 4d0e9c2dbcc701141821693c35fea8fa
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -7,33 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: c8f92e3b3bf1f374090768a4f6b0273e, type: 2}
+      name: 18_-_Default
+    second: {fileID: 2100000, guid: 9682cdc215d8ce34a8f7cff114b13d0c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: RoadSurface
-    second: {fileID: 2100000, guid: 84be49735a7b1934e89731ef9615a6d4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: curb
-    second: {fileID: 2100000, guid: 85d5797e2c2af834e8ac6a1f49d783df, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grass
-    second: {fileID: 2100000, guid: 6223e352dffd1d043a6be0f684b4b3bc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: stairs
-    second: {fileID: 2100000, guid: 9046fc5e75eb78749925e0c720e46a04, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: stairs2
-    second: {fileID: 2100000, guid: b38be6eeb33706c4aaae9adbbb8e0d8a, type: 2}
+      name: 24_-_Default
+    second: {fileID: 2100000, guid: b2a4abe05c25b94478475ab784e47856, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -65,15 +45,15 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 1
+    meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
