@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c2f337ef76e9cdf42885e954bc8a9511
 SketchUpImporter:
-  generateBackFace: 1
+  generateBackFace: 0
   mergeCoplanarFaces: 0
   selectedNodes: 00000000010000000400000005000000
   assetHash:
@@ -97,7 +97,7 @@ SketchUpImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

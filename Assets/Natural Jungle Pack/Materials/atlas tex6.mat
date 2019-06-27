@@ -8,10 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: atlas tex6
-  m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: b06d4a5b6166bd748b694172a926b0cd, type: 3}
   m_ShaderKeywords: _WINDQUALITY_NONE
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -23,8 +23,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: a3a29aafdd3cc0c4fad4567ad499db5b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpSpecAOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpSpecMap:
         m_Texture: {fileID: 2800000, guid: 1fc0c6ad1a0ea5b40a2034d525c8d6e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMapX:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ExtraTex:
@@ -35,8 +47,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LightTexture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTextureB0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7ae1b7d981390c8469b4e37c6399e154, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowMapTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowOffset:
@@ -59,16 +83,21 @@ Material:
     - _BillboardShadowFade: 0.5
     - _Culling: 0
     - _Cutoff: 0.5
+    - _DetailMode: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 1
     - _EdgeFlutterInfluence: 0.026
     - _EnableLeafTurbulence: 0
     - _EnableTransFade: 0
     - _FadeOutWind: 0
     - _Glossiness: 0.5
     - _HueVariationKwToggle: 0
+    - _IsBark: 1
     - _LODTerrain: 0
     - _LeafTurbulence: 0.22
     - _Metallic: 0
     - _NormalInfluence: 0.3
+    - _NormalInfluenceWater: 0.3
     - _NormalMapKwToggle: 0
     - _Occlusion: 1
     - _ShadowStrength: 0.766
@@ -76,8 +105,10 @@ Material:
     - _Snow: 5
     - _SnowMultiplier: 1.75
     - _SquashAmount: 1
+    - _SrcBlend: 1
     - _SubsurfaceIndirect: 0.25
     - _SubsurfaceKwToggle: 0
+    - _SwapUVS: 0
     - _TimeOffset: 0
     - _TranslucencyStrength: 0.5
     - _TranslucencyViewDependency: 0.853
@@ -88,9 +119,11 @@ Material:
     - _WetnessMaxSmoothness: 0.8
     - _WindQuality: 0
     m_Colors:
+    - _AverageCol: {r: 1, g: 1, b: 1, a: 0.5}
     - _Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
     - _HueVariation: {r: 0.9, g: 0.5, b: 0, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _RootSnow: {r: 2, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.29411763, g: 0.29411763, b: 0.29411763, a: 0}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TranslucencyColor: {r: 0.5377358, g: 0.40000448, b: 0.022828398, a: 1}

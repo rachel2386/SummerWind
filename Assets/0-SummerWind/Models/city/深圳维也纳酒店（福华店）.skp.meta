@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 89e553857df330e40ad2f0ccd7d9982e
 SketchUpImporter:
-  generateBackFace: 1
+  generateBackFace: 0
   mergeCoplanarFaces: 0
   selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a000000
   assetHash:
@@ -257,7 +257,7 @@ SketchUpImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 0.0254
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
