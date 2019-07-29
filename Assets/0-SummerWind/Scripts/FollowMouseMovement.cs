@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class FollowMouseMovement : MonoBehaviour
 {
-    public bool followMouse = false;
+    [HideInInspector]public bool followMouse = false;
+    [HideInInspector]public bool IsPhoto = false;
     //public Camera myCam;
     private Vector3 MousePosInWorld;
     public PlayMakerFSM CharacterFSM;
@@ -19,10 +20,17 @@ public class FollowMouseMovement : MonoBehaviour
         
         if (followMouse)
         {
-           Debug.Log("Rotating");
-            RotateObject();
-           
-            if (Input.GetKey(KeyCode.Escape))
+            if (!IsPhoto)
+            {
+                RotateObject(); 
+               
+            }
+//            else
+//            {
+//                CharacterFSM.SendEvent("UserExit");
+//            }
+
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Escape) ||  Input.GetMouseButtonDown(0) )
             {
                 CharacterFSM.SendEvent("UserExit");
                
