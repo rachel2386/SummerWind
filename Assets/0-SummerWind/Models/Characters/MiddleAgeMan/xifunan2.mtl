@@ -1,0 +1,62 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:13.07.2019 08:51:41
+
+newmtl Material__25
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\model\xifunan2\textures\xifunan2\cloth_d.dds
+	map_Kd D:\model\xifunan2\textures\xifunan2\cloth_d.dds
+	map_bump 贴图__2_法线凹凸.tga
+
+newmtl Material__26
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\model\xifunan2\textures\xifunan2\kuzi_d.dds
+	map_Kd D:\model\xifunan2\textures\xifunan2\kuzi_d.dds
+	map_bump 贴图__7_法线凹凸.tga
+
+newmtl hand
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\model\xifunan2\textures\xifunan2\hand_d.dds
+	map_Kd D:\model\xifunan2\textures\xifunan2\hand_d.dds
+	map_bump Map__7_法线凹凸.tga
+
+newmtl head
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\model\xifunan2\textures\xifunan2\head_d.dds
+	map_Kd D:\model\xifunan2\textures\xifunan2\head_d.dds
+	map_bump -bm 0.7000 Map__10_法线凹凸.tga
