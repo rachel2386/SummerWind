@@ -5,10 +5,11 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: CoconutPalmTree01_Leaves
   m_Shader: {fileID: 4800000, guid: b21dd9ef5428e47d88f72f8f830c7e26, type: 3}
-  m_ShaderKeywords: _DETAIL_MULX2 _METALLICGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -101,15 +102,18 @@ Material:
     - _NormalInfluence: 0.6
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _ShadowStrength: 0.8
     - _SmoothnessTextureChannel: 0
     - _Snow: 5
     - _SnowMultiplier: 1.75
     - _SpecularHighlights: 1
+    - _SquashAmount: 1
     - _SrcBlend: 1
     - _TimeOffset: 0.5
     - _TranslucencyStrength: 0.8
+    - _TranslucencyViewDependency: 0.7
     - _TumbleFrequency: 0.3
-    - _TumbleStrength: -0.1
+    - _TumbleStrength: 0.1
     - _UVSec: 0
     - _UseArrays: 0
     - _UseDetails: 0
@@ -120,3 +124,6 @@ Material:
     - _Color: {r: 0.83823526, g: 0.49558175, b: 0.0184905, a: 0.097}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 0.9, g: 0.5, b: 0, a: 0.1}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.40999997, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

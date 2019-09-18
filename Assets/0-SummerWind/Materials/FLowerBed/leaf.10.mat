@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: leaf.10
-  m_Shader: {fileID: 4800000, guid: b06d4a5b6166bd748b694172a926b0cd, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON
+  m_Shader: {fileID: 4800000, guid: b21dd9ef5428e47d88f72f8f830c7e26, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _METALLICGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -70,15 +70,15 @@ Material:
     - _Cutoff: 0.81
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EdgeFlutterInfluence: 0.25
+    - _EdgeFlutterInfluence: 0.12
     - _EnableLeafTurbulence: 0
     - _EnableTransFade: 0
     - _FadeOutWind: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _LODTerrain: 0
-    - _LeafTurbulence: 0.38
+    - _LODTerrain: 1
+    - _LeafTurbulence: 0.44
     - _Metallic: 0
     - _Mode: 1
     - _NormalInfluence: 0.3
@@ -91,11 +91,11 @@ Material:
     - _SpecularHighlights: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
-    - _TimeOffset: 0.25
+    - _TimeOffset: 0.09
     - _TranslucencyStrength: 0.5
     - _TranslucencyViewDependency: 0.7
-    - _TumbleFrequency: 0.2
-    - _TumbleStrength: 0
+    - _TumbleFrequency: 0.32
+    - _TumbleStrength: -0.25
     - _UVSec: 0
     - _ViewDependency: 0.8
     - _WetnessMaxSmoothness: 0.8
