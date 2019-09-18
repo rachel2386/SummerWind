@@ -95,7 +95,7 @@ Material:
     - _BumpScale: 1
     - _Cull: 0
     - _Culling: 0
-    - _Cutoff: 0.581
+    - _Cutoff: 0.52
     - _DetailNormalMapScale: 4.95
     - _DstBlend: 0
     - _EdgeFlutterInfluence: 0.25

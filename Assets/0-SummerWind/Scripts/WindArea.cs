@@ -21,7 +21,7 @@ public class WindArea : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        WindDirection = new Vector3(Random.Range(-1f,1f),Random.Range(-0.1f,0.1f),Random.Range(-1f,1f));
+        WindDirection = new Vector3(Random.Range(-1f,1f),Random.Range(0.1f,0.5f),Random.Range(-1f,1f));
         HighWindDirection = WindDirection;
         WindSpeed = Random.Range(5f,20f);
         HighWindSpeed = 50f;

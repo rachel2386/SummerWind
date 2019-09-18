@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     {
         m_Character = GameObject.FindGameObjectWithTag("Player");
         characterController = m_Character.GetComponent<UltimateCharacterLocomotion>();
-        TimelineFSM = PlayMakerFSM.FindFsmOnGameObject(GameObject.Find("TimeLine"), "KiteToPlayerClipControl");
+        TimelineFSM = PlayMakerFSM.FindFsmOnGameObject(GameObject.Find("Timeline"), "KiteToPlayerClipControl");
         
     }
 
@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     Debug.Log("spacePressed");
-                    TimelineFSM.SetState("ContinueExploration");
+                    TimelineFSM.SetState("ExplorationMode");
                     continuedGame = true;
                 }
                 
