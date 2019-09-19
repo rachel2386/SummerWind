@@ -8,20 +8,38 @@ public class IgnoreColliders : MonoBehaviour
     public List<BoxCollider> BoxCollidersToIgnore;
 
     private Collider MyCol;
+
+    public bool ignoreColliders = false;
+    public bool ignoreLayer = false;
+
+    public List<int> LayersToIgnore;
     // Start is called before the first frame update
     void Start()
     {
         MyCol = GetComponent<Collider>();
-        foreach (BoxCollider col in BoxCollidersToIgnore)
+        if (ignoreColliders)
         {
-            Physics.IgnoreCollision(MyCol, col);
+            foreach (BoxCollider col in BoxCollidersToIgnore)
+            {
+                Physics.IgnoreCollision(MyCol, col);
+            }
+            foreach (CapsuleCollider col in CapsuleCollidersToIgnore)
+            {
+                Physics.IgnoreCollision(MyCol, col);
+            }
         }
-        foreach (CapsuleCollider col in CapsuleCollidersToIgnore)
+        else if (ignoreLayer)
         {
-            Physics.IgnoreCollision(MyCol, col);
+            foreach ( int layer in LayersToIgnore)
+            {
+                Physics.IgnoreLayerCollision(gameObject.layer, layer);
+            }
+            
         }
 
-        
+
+
+
     }
 
     // Update is called once per frame
