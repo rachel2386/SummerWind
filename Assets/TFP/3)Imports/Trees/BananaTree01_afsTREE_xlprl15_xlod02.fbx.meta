@@ -1,108 +1,308 @@
 fileFormatVersion: 2
 guid: 84d371939691eb1408f8213c7d5466ee
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: BananaLeaf_xw05_xt08_xlp04_xp05
-    100004: BananaLeaf_xw07_xt10_xlp05_xp04
-    100006: BananaLeaf_xw08_xt08_xlp04
-    100008: BananaLeaf_xw08_xt10_xlp05_xp06
-    100010: BananaLeaf_xw08_xt12_xlp05_xp09
-    100012: BananaLeaf_xw10_xt08_xlp06_xp03
-    100014: DeadBananaLeaf_xw00_xt00_xlp00
-    100016: DeadBananaLeaf_xw00_xt00_xlp00.001
-    100018: DeadBananaLeaf_xw00_xt00_xlp00.002
-    100020: DeadBananaLeaf_xw00_xt00_xlp00.003
-    100022: DeadBananaLeaf_xw00_xt00_xlp00.004
-    100024: DeadBananaLeaf_xw00_xt00_xlp00.005
-    100026: DeadBananaLeaf_xw01_xt01_xlp01
-    100028: DeadBananaLeaf_xw01_xt01_xlp01_xp07
-    100030: DeadBananaLeaf_xw01_xt01_xlp01_xp10
-    100032: DeadBananaLeaf_xw02_xt02_xlp02_xp10
-    100034: DyingBranch_xw05_xt08_xlp03_xp01
-    100036: DyingBranch_xw05_xt08_xlp05_xp05
-    100038: trunk_bananaTree01_xw05_xt04
-    400000: //RootNode
-    400002: BananaLeaf_xw05_xt08_xlp04_xp05
-    400004: BananaLeaf_xw07_xt10_xlp05_xp04
-    400006: BananaLeaf_xw08_xt08_xlp04
-    400008: BananaLeaf_xw08_xt10_xlp05_xp06
-    400010: BananaLeaf_xw08_xt12_xlp05_xp09
-    400012: BananaLeaf_xw10_xt08_xlp06_xp03
-    400014: DeadBananaLeaf_xw00_xt00_xlp00
-    400016: DeadBananaLeaf_xw00_xt00_xlp00.001
-    400018: DeadBananaLeaf_xw00_xt00_xlp00.002
-    400020: DeadBananaLeaf_xw00_xt00_xlp00.003
-    400022: DeadBananaLeaf_xw00_xt00_xlp00.004
-    400024: DeadBananaLeaf_xw00_xt00_xlp00.005
-    400026: DeadBananaLeaf_xw01_xt01_xlp01
-    400028: DeadBananaLeaf_xw01_xt01_xlp01_xp07
-    400030: DeadBananaLeaf_xw01_xt01_xlp01_xp10
-    400032: DeadBananaLeaf_xw02_xt02_xlp02_xp10
-    400034: DyingBranch_xw05_xt08_xlp03_xp01
-    400036: DyingBranch_xw05_xt08_xlp05_xp05
-    400038: trunk_bananaTree01_xw05_xt04
-    2300000: //RootNode
-    2300002: BananaLeaf_xw05_xt08_xlp04_xp05
-    2300004: BananaLeaf_xw07_xt10_xlp05_xp04
-    2300006: BananaLeaf_xw08_xt08_xlp04
-    2300008: BananaLeaf_xw08_xt10_xlp05_xp06
-    2300010: BananaLeaf_xw08_xt12_xlp05_xp09
-    2300012: BananaLeaf_xw10_xt08_xlp06_xp03
-    2300014: DeadBananaLeaf_xw00_xt00_xlp00
-    2300016: DeadBananaLeaf_xw00_xt00_xlp00.001
-    2300018: DeadBananaLeaf_xw00_xt00_xlp00.002
-    2300020: DeadBananaLeaf_xw00_xt00_xlp00.003
-    2300022: DeadBananaLeaf_xw00_xt00_xlp00.004
-    2300024: DeadBananaLeaf_xw00_xt00_xlp00.005
-    2300026: DeadBananaLeaf_xw01_xt01_xlp01
-    2300028: DeadBananaLeaf_xw01_xt01_xlp01_xp07
-    2300030: DeadBananaLeaf_xw01_xt01_xlp01_xp10
-    2300032: DeadBananaLeaf_xw02_xt02_xlp02_xp10
-    2300034: DyingBranch_xw05_xt08_xlp03_xp01
-    2300036: DyingBranch_xw05_xt08_xlp05_xp05
-    2300038: trunk_bananaTree01_xw05_xt04
-    3300000: //RootNode
-    3300002: BananaLeaf_xw05_xt08_xlp04_xp05
-    3300004: BananaLeaf_xw07_xt10_xlp05_xp04
-    3300006: BananaLeaf_xw08_xt08_xlp04
-    3300008: BananaLeaf_xw08_xt10_xlp05_xp06
-    3300010: BananaLeaf_xw08_xt12_xlp05_xp09
-    3300012: BananaLeaf_xw10_xt08_xlp06_xp03
-    3300014: DeadBananaLeaf_xw00_xt00_xlp00
-    3300016: DeadBananaLeaf_xw00_xt00_xlp00.001
-    3300018: DeadBananaLeaf_xw00_xt00_xlp00.002
-    3300020: DeadBananaLeaf_xw00_xt00_xlp00.003
-    3300022: DeadBananaLeaf_xw00_xt00_xlp00.004
-    3300024: DeadBananaLeaf_xw00_xt00_xlp00.005
-    3300026: DeadBananaLeaf_xw01_xt01_xlp01
-    3300028: DeadBananaLeaf_xw01_xt01_xlp01_xp07
-    3300030: DeadBananaLeaf_xw01_xt01_xlp01_xp10
-    3300032: DeadBananaLeaf_xw02_xt02_xlp02_xp10
-    3300034: DyingBranch_xw05_xt08_xlp03_xp01
-    3300036: DyingBranch_xw05_xt08_xlp05_xp05
-    3300038: trunk_bananaTree01_xw05_xt04
-    4300000: trunk_bananaTree01_xw05_xt04
-    4300002: DyingBranch_xw05_xt08_xlp05_xp05
-    4300004: BananaLeaf_xw08_xt08_xlp04
-    4300006: DeadBananaLeaf_xw00_xt00_xlp00.003
-    4300008: DeadBananaLeaf_xw02_xt02_xlp02_xp10
-    4300010: BananaLeaf_xw08_xt12_xlp05_xp09
-    4300012: BananaLeaf_xw05_xt08_xlp04_xp05
-    4300014: BananaLeaf_xw08_xt10_xlp05_xp06
-    4300016: BananaLeaf_xw10_xt08_xlp06_xp03
-    4300018: BananaLeaf_xw07_xt10_xlp05_xp04
-    4300020: DyingBranch_xw05_xt08_xlp03_xp01
-    4300022: DeadBananaLeaf_xw00_xt00_xlp00.001
-    4300024: DeadBananaLeaf_xw00_xt00_xlp00.002
-    4300026: DeadBananaLeaf_xw00_xt00_xlp00
-    4300028: DeadBananaLeaf_xw00_xt00_xlp00.004
-    4300030: DeadBananaLeaf_xw00_xt00_xlp00.005
-    4300032: DeadBananaLeaf_xw01_xt01_xlp01_xp10
-    4300034: DeadBananaLeaf_xw01_xt01_xlp01_xp07
-    4300036: DeadBananaLeaf_xw01_xt01_xlp01
-    19300000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: BananaLeaf_xw05_xt08_xlp04_xp05
+  - first:
+      1: 100004
+    second: BananaLeaf_xw07_xt10_xlp05_xp04
+  - first:
+      1: 100006
+    second: BananaLeaf_xw08_xt08_xlp04
+  - first:
+      1: 100008
+    second: BananaLeaf_xw08_xt10_xlp05_xp06
+  - first:
+      1: 100010
+    second: BananaLeaf_xw08_xt12_xlp05_xp09
+  - first:
+      1: 100012
+    second: BananaLeaf_xw10_xt08_xlp06_xp03
+  - first:
+      1: 100014
+    second: DeadBananaLeaf_xw00_xt00_xlp00
+  - first:
+      1: 100016
+    second: DeadBananaLeaf_xw00_xt00_xlp00.001
+  - first:
+      1: 100018
+    second: DeadBananaLeaf_xw00_xt00_xlp00.002
+  - first:
+      1: 100020
+    second: DeadBananaLeaf_xw00_xt00_xlp00.003
+  - first:
+      1: 100022
+    second: DeadBananaLeaf_xw00_xt00_xlp00.004
+  - first:
+      1: 100024
+    second: DeadBananaLeaf_xw00_xt00_xlp00.005
+  - first:
+      1: 100026
+    second: DeadBananaLeaf_xw01_xt01_xlp01
+  - first:
+      1: 100028
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp07
+  - first:
+      1: 100030
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp10
+  - first:
+      1: 100032
+    second: DeadBananaLeaf_xw02_xt02_xlp02_xp10
+  - first:
+      1: 100034
+    second: DyingBranch_xw05_xt08_xlp03_xp01
+  - first:
+      1: 100036
+    second: DyingBranch_xw05_xt08_xlp05_xp05
+  - first:
+      1: 100038
+    second: trunk_bananaTree01_xw05_xt04
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: BananaLeaf_xw05_xt08_xlp04_xp05
+  - first:
+      4: 400004
+    second: BananaLeaf_xw07_xt10_xlp05_xp04
+  - first:
+      4: 400006
+    second: BananaLeaf_xw08_xt08_xlp04
+  - first:
+      4: 400008
+    second: BananaLeaf_xw08_xt10_xlp05_xp06
+  - first:
+      4: 400010
+    second: BananaLeaf_xw08_xt12_xlp05_xp09
+  - first:
+      4: 400012
+    second: BananaLeaf_xw10_xt08_xlp06_xp03
+  - first:
+      4: 400014
+    second: DeadBananaLeaf_xw00_xt00_xlp00
+  - first:
+      4: 400016
+    second: DeadBananaLeaf_xw00_xt00_xlp00.001
+  - first:
+      4: 400018
+    second: DeadBananaLeaf_xw00_xt00_xlp00.002
+  - first:
+      4: 400020
+    second: DeadBananaLeaf_xw00_xt00_xlp00.003
+  - first:
+      4: 400022
+    second: DeadBananaLeaf_xw00_xt00_xlp00.004
+  - first:
+      4: 400024
+    second: DeadBananaLeaf_xw00_xt00_xlp00.005
+  - first:
+      4: 400026
+    second: DeadBananaLeaf_xw01_xt01_xlp01
+  - first:
+      4: 400028
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp07
+  - first:
+      4: 400030
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp10
+  - first:
+      4: 400032
+    second: DeadBananaLeaf_xw02_xt02_xlp02_xp10
+  - first:
+      4: 400034
+    second: DyingBranch_xw05_xt08_xlp03_xp01
+  - first:
+      4: 400036
+    second: DyingBranch_xw05_xt08_xlp05_xp05
+  - first:
+      4: 400038
+    second: trunk_bananaTree01_xw05_xt04
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: BananaLeaf_xw05_xt08_xlp04_xp05
+  - first:
+      23: 2300004
+    second: BananaLeaf_xw07_xt10_xlp05_xp04
+  - first:
+      23: 2300006
+    second: BananaLeaf_xw08_xt08_xlp04
+  - first:
+      23: 2300008
+    second: BananaLeaf_xw08_xt10_xlp05_xp06
+  - first:
+      23: 2300010
+    second: BananaLeaf_xw08_xt12_xlp05_xp09
+  - first:
+      23: 2300012
+    second: BananaLeaf_xw10_xt08_xlp06_xp03
+  - first:
+      23: 2300014
+    second: DeadBananaLeaf_xw00_xt00_xlp00
+  - first:
+      23: 2300016
+    second: DeadBananaLeaf_xw00_xt00_xlp00.001
+  - first:
+      23: 2300018
+    second: DeadBananaLeaf_xw00_xt00_xlp00.002
+  - first:
+      23: 2300020
+    second: DeadBananaLeaf_xw00_xt00_xlp00.003
+  - first:
+      23: 2300022
+    second: DeadBananaLeaf_xw00_xt00_xlp00.004
+  - first:
+      23: 2300024
+    second: DeadBananaLeaf_xw00_xt00_xlp00.005
+  - first:
+      23: 2300026
+    second: DeadBananaLeaf_xw01_xt01_xlp01
+  - first:
+      23: 2300028
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp07
+  - first:
+      23: 2300030
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp10
+  - first:
+      23: 2300032
+    second: DeadBananaLeaf_xw02_xt02_xlp02_xp10
+  - first:
+      23: 2300034
+    second: DyingBranch_xw05_xt08_xlp03_xp01
+  - first:
+      23: 2300036
+    second: DyingBranch_xw05_xt08_xlp05_xp05
+  - first:
+      23: 2300038
+    second: trunk_bananaTree01_xw05_xt04
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: BananaLeaf_xw05_xt08_xlp04_xp05
+  - first:
+      33: 3300004
+    second: BananaLeaf_xw07_xt10_xlp05_xp04
+  - first:
+      33: 3300006
+    second: BananaLeaf_xw08_xt08_xlp04
+  - first:
+      33: 3300008
+    second: BananaLeaf_xw08_xt10_xlp05_xp06
+  - first:
+      33: 3300010
+    second: BananaLeaf_xw08_xt12_xlp05_xp09
+  - first:
+      33: 3300012
+    second: BananaLeaf_xw10_xt08_xlp06_xp03
+  - first:
+      33: 3300014
+    second: DeadBananaLeaf_xw00_xt00_xlp00
+  - first:
+      33: 3300016
+    second: DeadBananaLeaf_xw00_xt00_xlp00.001
+  - first:
+      33: 3300018
+    second: DeadBananaLeaf_xw00_xt00_xlp00.002
+  - first:
+      33: 3300020
+    second: DeadBananaLeaf_xw00_xt00_xlp00.003
+  - first:
+      33: 3300022
+    second: DeadBananaLeaf_xw00_xt00_xlp00.004
+  - first:
+      33: 3300024
+    second: DeadBananaLeaf_xw00_xt00_xlp00.005
+  - first:
+      33: 3300026
+    second: DeadBananaLeaf_xw01_xt01_xlp01
+  - first:
+      33: 3300028
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp07
+  - first:
+      33: 3300030
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp10
+  - first:
+      33: 3300032
+    second: DeadBananaLeaf_xw02_xt02_xlp02_xp10
+  - first:
+      33: 3300034
+    second: DyingBranch_xw05_xt08_xlp03_xp01
+  - first:
+      33: 3300036
+    second: DyingBranch_xw05_xt08_xlp05_xp05
+  - first:
+      33: 3300038
+    second: trunk_bananaTree01_xw05_xt04
+  - first:
+      43: 4300000
+    second: trunk_bananaTree01_xw05_xt04
+  - first:
+      43: 4300002
+    second: DyingBranch_xw05_xt08_xlp05_xp05
+  - first:
+      43: 4300004
+    second: BananaLeaf_xw08_xt08_xlp04
+  - first:
+      43: 4300006
+    second: DeadBananaLeaf_xw00_xt00_xlp00.003
+  - first:
+      43: 4300008
+    second: DeadBananaLeaf_xw02_xt02_xlp02_xp10
+  - first:
+      43: 4300010
+    second: BananaLeaf_xw08_xt12_xlp05_xp09
+  - first:
+      43: 4300012
+    second: BananaLeaf_xw05_xt08_xlp04_xp05
+  - first:
+      43: 4300014
+    second: BananaLeaf_xw08_xt10_xlp05_xp06
+  - first:
+      43: 4300016
+    second: BananaLeaf_xw10_xt08_xlp06_xp03
+  - first:
+      43: 4300018
+    second: BananaLeaf_xw07_xt10_xlp05_xp04
+  - first:
+      43: 4300020
+    second: DyingBranch_xw05_xt08_xlp03_xp01
+  - first:
+      43: 4300022
+    second: DeadBananaLeaf_xw00_xt00_xlp00.001
+  - first:
+      43: 4300024
+    second: DeadBananaLeaf_xw00_xt00_xlp00.002
+  - first:
+      43: 4300026
+    second: DeadBananaLeaf_xw00_xt00_xlp00
+  - first:
+      43: 4300028
+    second: DeadBananaLeaf_xw00_xt00_xlp00.004
+  - first:
+      43: 4300030
+    second: DeadBananaLeaf_xw00_xt00_xlp00.005
+  - first:
+      43: 4300032
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp10
+  - first:
+      43: 4300034
+    second: DeadBananaLeaf_xw01_xt01_xlp01_xp07
+  - first:
+      43: 4300036
+    second: DeadBananaLeaf_xw01_xt01_xlp01
+  - first:
+      193: 19300000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -145,8 +345,9 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 2
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -154,27 +355,32 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -184,8 +390,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

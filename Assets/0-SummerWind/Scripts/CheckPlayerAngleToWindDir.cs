@@ -13,8 +13,8 @@ public class CheckPlayerAngleToWindDir : MonoBehaviour
     {
         Vector3 forward = transform.forward;
         angle = Vector3.Angle(Vector3.zero-WindArea.WindDirection, forward);
-        
        
-        
+
+
     }
 }
