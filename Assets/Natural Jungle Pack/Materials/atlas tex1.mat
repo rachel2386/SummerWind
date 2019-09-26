@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: atlas tex1
-  m_Shader: {fileID: 4800000, guid: b06d4a5b6166bd748b694172a926b0cd, type: 3}
+  m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: GEOM_TYPE_MESH _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -95,7 +95,7 @@ Material:
     - _EnableLeafTurbulence: 0
     - _EnableTransFade: 0
     - _FadeOutWind: 0
-    - _Glossiness: 0.5
+    - _Glossiness: 0.257
     - _HueVariationKwToggle: 0
     - _IsBark: 1
     - _LODTerrain: 0
@@ -125,7 +125,7 @@ Material:
     - _WindQuality: 0
     m_Colors:
     - _AverageCol: {r: 1, g: 1, b: 1, a: 0.5}
-    - _Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+    - _Color: {r: 0.81619096, g: 0.8301887, b: 0.36418653, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _RootSnow: {r: 2, g: 1, b: 0, a: 0}
