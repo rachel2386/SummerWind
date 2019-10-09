@@ -8,6 +8,7 @@ public class DrawKiteString : MonoBehaviour
    public Transform Kite;
     public Transform Handle;
     public Material StringMat;
+    public float stringWidth = 0.01f;
     private LineRenderer myLine;
     
    
@@ -15,7 +16,7 @@ public class DrawKiteString : MonoBehaviour
     {
         myLine = gameObject.AddComponent<LineRenderer>();
         myLine.material = StringMat;
-        myLine.startWidth = 0.003f;
+        myLine.startWidth = stringWidth;
         print(myLine.startWidth);
         
 
@@ -25,6 +26,7 @@ public class DrawKiteString : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        myLine.startWidth = stringWidth;
         myLine.SetPosition(0, Kite.position);
         myLine.SetPosition(1, Handle.position);
     }

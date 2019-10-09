@@ -10,23 +10,29 @@ public class WindArea : MonoBehaviour
    public static Vector3 WindDirection;
    public static Vector3 HighWindDirection;
 
-   private float highWindThreshold = 20f;
+   private static float highWindThreshold = 30f;
 
    public bool InWindZone = false;
    
    public List<Rigidbody>AffectedRBs = new List<Rigidbody>();
    private List<Cloth> AffectedCloth = new List<Cloth>();
-   
+
+   private Transform m_character;
    
     // Start is called before the first frame update
     void Start()
     {
-        WindDirection = new Vector3(Random.Range(-1f,1f),0.1f,Random.Range(-1f,1f));
+        WindDirection = new Vector3(Random.Range(-1f,1f),0.1f,Random.Range(-1f,1f)).normalized;
         HighWindDirection = WindDirection;
-        WindSpeed = Random.Range(5f,20f);
+       
+        WindSpeed = Random.Range(20f,40f);
         HighWindSpeed = 50f;
        
+        print("windDIr = " + WindDirection * WindSpeed);
+        
         AffectedCloth.AddRange(GameObject.FindObjectsOfType<Cloth>());
+
+        m_character = GameObject.FindWithTag("Player").transform;
         
         foreach (Cloth cloth in AffectedCloth)
         {
@@ -43,22 +49,49 @@ public class WindArea : MonoBehaviour
         if (!InWindZone) return;
         WindEffect();
         
+        
+        
     }
 
     public void WindEffect()
     {
         if (AffectedRBs.Count <= 0) return;
+        
         foreach (Rigidbody rb in AffectedRBs)
         {
-            if (!(rb.velocity.magnitude <= 0.01f)) continue;
-            if (rb.transform.position.y <= highWindThreshold) //if rigidbody y position is lower than 30m, affected by low wind, otherwise affected by high wind 
-            {
-                rb.AddForce(WindSpeed * WindDirection, ForceMode.Force);
-            }
-            else
-            {
-                rb.AddForce(HighWindSpeed * HighWindDirection, ForceMode.Force);
-            }
+            //if (!(rb.velocity.magnitude <= 0.01f)) continue;
+            var disToPlayer = Vector3.Distance(m_character.position, rb.position);
+            
+                //if rigidbody y position is lower than 30m, affected by low wind, otherwise affected by high wind 
+                if (rb.position.y <= highWindThreshold ) 
+                {
+//                    if(rb.position.y > 20)
+//                    rb.drag = Mathf.Lerp(rb.drag, rb.position.y/2, Time.deltaTime * 10f);
+//                    else
+//                    {
+                        rb.drag = Mathf.Lerp(rb.drag, 2f, Time.deltaTime);
+                   // }
+                    if (disToPlayer <= KitePhysics.maxStringLength)
+                    rb.AddForce(WindSpeed * WindDirection, ForceMode.Force);
+                   // rb.transform.forward = Vector3.Lerp(rb.transform.forward, WindDirection, Time.deltaTime * 5f); 
+                }
+                else
+                {
+                    
+                    rb.drag = Mathf.Lerp(rb.drag, rb.position.y, Time.deltaTime);
+                    
+                    if (disToPlayer <= KitePhysics.maxStringLength)
+                    rb.AddForce(HighWindSpeed * HighWindDirection, ForceMode.Force);
+                    
+                    rb.AddForce(Vector3.up * 50f,  ForceMode.Force);
+                    rb.transform.forward = Vector3.Lerp(rb.transform.forward, HighWindDirection, Time.deltaTime * 5f);
+
+
+                } 
+            
+            
+
+           
 
         }
 
