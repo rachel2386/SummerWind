@@ -69,9 +69,9 @@ public class WindArea : MonoBehaviour
 //                    rb.drag = Mathf.Lerp(rb.drag, rb.position.y/2, Time.deltaTime * 10f);
 //                    else
 //                    {
-                        rb.drag = Mathf.Lerp(rb.drag, 2f, Time.deltaTime);
+                        rb.drag = Mathf.Lerp(rb.drag, 1f, Time.deltaTime);
                    // }
-                    if (disToPlayer <= KitePhysics.maxStringLength)
+                    //if (disToPlayer <= KitePhysics.CurrentStringLength)
                     rb.AddForce(WindSpeed * WindDirection, ForceMode.Force);
                    // rb.transform.forward = Vector3.Lerp(rb.transform.forward, WindDirection, Time.deltaTime * 5f); 
                 }
@@ -80,7 +80,7 @@ public class WindArea : MonoBehaviour
                     
                     rb.drag = Mathf.Lerp(rb.drag, rb.position.y, Time.deltaTime);
                     
-                    if (disToPlayer <= KitePhysics.maxStringLength)
+                    //if (disToPlayer <= KitePhysics.CurrentStringLength)
                     rb.AddForce(HighWindSpeed * HighWindDirection, ForceMode.Force);
                     
                     rb.AddForce(Vector3.up * 50f,  ForceMode.Force);

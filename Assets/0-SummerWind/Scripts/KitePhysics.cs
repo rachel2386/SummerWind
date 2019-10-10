@@ -15,10 +15,12 @@ public class KitePhysics : MonoBehaviour
     private bool holdingKey = false;
     float forceTimer = 0;
 
-    public static float maxStringLength = 10f;
-    public static float minStringLength = 8f;
+    public static float CurrentStringLength = 10f;//10f;
+    public static float maxStringLength = 80;//300f;
+    public static float minStringLength = 1f;//8f;
 
     public float changeRopeLengthSpeed = 5f;
+    private KiteRopeControl ropeControlScript;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,8 @@ public class KitePhysics : MonoBehaviour
         playerTransform = GameObject.FindWithTag("Player").transform;
         //playerRB = GameObject.FindWithTag("Player").GetComponent<Rigidbody>();
         myRB = GetComponent<Rigidbody>();
-        
+        ropeControlScript = GetComponent<KiteRopeControl>();
+
     }
 
     // Update is called once per frame
@@ -41,7 +44,7 @@ public class KitePhysics : MonoBehaviour
        
         
         
-        AutoAdjustKiteDis();
+        //AutoAdjustKiteDis();
         
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -51,10 +54,12 @@ public class KitePhysics : MonoBehaviour
         if (Input.GetKey(KeyCode.I))
         {
             ManualExtendString();
+           
         }
         else if (Input.GetKey(KeyCode.K))
         {
             ManualTightenString();
+           
         }
 
 
@@ -71,17 +76,17 @@ public class KitePhysics : MonoBehaviour
 //            forceTimer += Time.deltaTime;
 //        else
 //            forceTimer = 0;
-        
+        CurrentStringLength = ropeControlScript.m_rope.RestLength;
 
-        
+
     }
 
    
 
     void LiftCalculation(Vector3 force)
     {
-        if (Vector3.Distance(transform.position, playerTransform.position) <= maxStringLength)
-        {
+        //if (Vector3.Distance(transform.position, playerTransform.position) <= CurrentStringLength)
+       // {
             //Project wind force to lift force
             //Vector3 extraForce = myRB.velocity;
             //Vector3 projectedWindForce = Vector3.Project(WindArea.WindDirection * WindArea.WindSpeed, -transform.up);
@@ -90,8 +95,8 @@ public class KitePhysics : MonoBehaviour
             projectedForce.y = Mathf.Abs(projectedForce.y);
             myRB.AddForce(projectedForce * liftForce,ForceMode.Force);
         
-            Debug.DrawRay(transform.position, projectedForce* 10f,Color.green); 
-        }
+            
+       // }
 
         
        
@@ -131,7 +136,13 @@ public class KitePhysics : MonoBehaviour
     }
     private void ManualExtendString()
     {
-        maxStringLength += Time.deltaTime * changeRopeLengthSpeed;
+        if (CurrentStringLength < maxStringLength)
+        {
+            //CurrentStringLength += Time.deltaTime * changeRopeLengthSpeed;
+            ropeControlScript.ExtendRope();
+        }
+
+       
         //print("MaxdistanceToPlayer" + maxStringLength);
     }
 
@@ -139,17 +150,18 @@ public class KitePhysics : MonoBehaviour
     {
         if (Vector3.Distance(playerTransform.position, myRB.position) >= minStringLength)
         {
-            maxStringLength -= Time.deltaTime * changeRopeLengthSpeed;
+           //CurrentStringLength -= Time.deltaTime * changeRopeLengthSpeed;
+            ropeControlScript.ReelInRope();
             //print("MaxdistanceToPlayer" + maxStringLength);
             
         }
         else
-            maxStringLength = minStringLength;
+            CurrentStringLength = minStringLength;
     }
 
     void AutoAdjustKiteDis()
     {
-        if (Vector3.Distance(transform.position, playerTransform.position) > maxStringLength)
+        if (Vector3.Distance(transform.position, playerTransform.position) > ropeControlScript.m_rope.RestLength)
         {
             var forceDir = playerTransform.position - transform.position;
           // myRB.AddForce(forceDir.normalized * 30,ForceMode.Acceleration);
@@ -177,7 +189,7 @@ public class KitePhysics : MonoBehaviour
         Gizmos.color = color;
        
         if(playerTransform != null)
-        Gizmos.DrawSphere(playerTransform.position,maxStringLength);
+        Gizmos.DrawSphere(playerTransform.position,CurrentStringLength);
     }
 
     
